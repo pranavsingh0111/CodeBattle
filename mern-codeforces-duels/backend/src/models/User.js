@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema({
     points: {
         type: Number,
         default: 0,
-        min: 0 // Ensure points never go below 0
+        min: 0 
     },
     friends: [{
         type: mongoose.Schema.Types.ObjectId,
